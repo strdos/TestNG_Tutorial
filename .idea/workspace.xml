@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="039e9566-6109-4685-b9d4-7dcee4bc3d65" name="Changes" comment="TestNG - initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG_Tutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Introduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Module2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Module3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Module4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngPackage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Introduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Introduction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Module2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Module2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +46,40 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/strdo/Downloads/gavroche.zip",
+    "last_opened_file_path": "C:/Users/strdo/IdeaProjects/TestNG_Tutorial",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\strdo\IdeaProjects\TestNG_Tutorial" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testng.xml">
-    <configuration name="C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testng2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Tutorial" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng2.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testngPackage.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Tutorial" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngPackage.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testng.xml" type="TestNG" nameIsGenerated="true">
       <module name="TestNG_Tutorial" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -120,7 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testngPackage.xml" />
+        <item itemvalue="TestNG.C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testng2.xml" />
         <item itemvalue="TestNG.Introduction" />
         <item itemvalue="TestNG.Introduction.TestCase2" />
         <item itemvalue="TestNG.Introduction.Demo" />
@@ -136,6 +161,14 @@
       <option name="presentableId" value="Default" />
       <updated>1677870789765</updated>
     </task>
+    <task id="LOCAL-00001" summary="TestNG - initial commit">
+      <created>1677881623416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677881623416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
