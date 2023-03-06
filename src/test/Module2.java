@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Module2 {
-    @Test
+    @Test (groups = "Smoke")
     public void test1() {
         System.out.println("module 2 - test 1");
     }

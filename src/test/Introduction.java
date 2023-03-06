@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class Introduction {
 
     // in TestNG, every method is treated as a test case
-    @Test
+    @Test (groups = {"Smoke"})
     public void Demo() {
         System.out.println("Intro - test 1");
     }

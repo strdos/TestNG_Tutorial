@@ -18,19 +18,19 @@ public class Module4 {
     }
     @Test
     public void WebLogin1() {
-        System.out.println("module 4 - test web");
+        System.out.println("module 4 - test web 1");
     }
     @Test
     public void WebLogin2() {
-        System.out.println("module 4 - test mobile");
+        System.out.println("module 4 - test mobile 1");
     }
     @Test
     public void MobileLogin1() {
-        System.out.println("module 4 - test web");
+        System.out.println("module 4 - test web 2");
     }
     @Test
     public void MobileLogin2() {
-        System.out.println("module 4 - test mobile");
+        System.out.println("module 4 - test mobile 2");
     }
     @BeforeMethod
     public void runBeforeMethod() { System.out.println("test run before every method in module 4");}
