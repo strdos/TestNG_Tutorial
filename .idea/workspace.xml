@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="039e9566-6109-4685-b9d4-7dcee4bc3d65" name="Changes" comment="TestNG - include/exclude mechanism, at package level, annotations (before, after)">
-      <change afterPath="$PROJECT_DIR$/testngGroup.xml" afterDir="false" />
+    <list default="true" id="039e9566-6109-4685-b9d4-7dcee4bc3d65" name="Changes" comment="TestNG - groups, dependencies, enabled, timeout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Introduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Introduction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Module2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Module2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Module3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Module3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Module4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Module4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Module3.calculateCarLoanExport">
+  <component name="RunManager" selected="TestNG.C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testng.xml">
     <configuration name="C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testng2.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Tutorial" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng2.xml" />
@@ -167,13 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678038478865</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TestNG - groups, dependencies, enabled, timeout">
+      <created>1678138165891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678138165891</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TestNG - initial commit" />
     <MESSAGE value="TestNG - include/exclude mechanism, at package level, annotations (before, after)" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG - include/exclude mechanism, at package level, annotations (before, after)" />
+    <MESSAGE value="TestNG - groups, dependencies, enabled, timeout" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG - groups, dependencies, enabled, timeout" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestNG_Tutorial$Intro_Demo.ic" NAME="Intro.Demo Coverage Results" MODIFIED="1677871381657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
