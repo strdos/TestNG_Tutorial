@@ -5,9 +5,7 @@ import org.testng.annotations.Test;
 
 public class Module4 {
     @Test
-    public void calculateHomeLoanWeb() {
-        System.out.println("module 4 - test web");
-    }
+    public void calculateHomeLoanWeb() { System.out.println("module 4 - test web"); }
     @Test
     public void calculateHomeLoanMobile() {
         System.out.println("module 4 - test mobile");

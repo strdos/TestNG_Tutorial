@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="039e9566-6109-4685-b9d4-7dcee4bc3d65" name="Changes" comment="TestNG - groups, dependencies, enabled, timeout">
+    <list default="true" id="039e9566-6109-4685-b9d4-7dcee4bc3d65" name="Changes" comment="TestNG - parametrization, via .xml file and via @DataProvider annotation">
+      <change afterPath="$PROJECT_DIR$/src/test/ListenersDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Module2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Module2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Module3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Module3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Module4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Module4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,19 +34,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/strdo/IdeaProjects/TestNG_Tutorial&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/strdo/IdeaProjects/TestNG_Tutorial/test-output",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\strdo\IdeaProjects\TestNG_Tutorial" />
@@ -88,8 +88,17 @@
     </configuration>
     <configuration name="C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testng.xml" type="TestNG" nameIsGenerated="true">
       <module name="TestNG_Tutorial" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\strdo\IdeaProjects\TestNG_Tutorial\test-output" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -132,6 +141,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testng.xml" />
+      <item itemvalue="TestNG.C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testng2.xml" />
+      <item itemvalue="TestNG.C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testngGroup.xml" />
+      <item itemvalue="TestNG.C:/Users/strdo/IdeaProjects/TestNG_Tutorial/testngPackage.xml" />
+      <item itemvalue="TestNG.Module3.calculateCarLoanApi" />
+      <item itemvalue="TestNG.Module3.calculateCarLoanExport" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Module3.calculateCarLoanExport" />
@@ -172,14 +189,22 @@
       <option name="project" value="LOCAL" />
       <updated>1678138165891</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TestNG - parametrization, via .xml file and via @DataProvider annotation">
+      <created>1678217926965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678217926965</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TestNG - initial commit" />
     <MESSAGE value="TestNG - include/exclude mechanism, at package level, annotations (before, after)" />
     <MESSAGE value="TestNG - groups, dependencies, enabled, timeout" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG - groups, dependencies, enabled, timeout" />
+    <MESSAGE value="TestNG - parametrization, via .xml file and via @DataProvider annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG - parametrization, via .xml file and via @DataProvider annotation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestNG_Tutorial$Intro_Demo.ic" NAME="Intro.Demo Coverage Results" MODIFIED="1677871381657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
